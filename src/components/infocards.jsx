@@ -1,7 +1,7 @@
-import '../styles/info-kort.css';
+import '../styles/infocards.css';
 import profilbild from '../assets/profilbild.jpg';
 
-const OmMigKort = () => {
+const InfoCards = () => {
   return (
     <div>
       <div className="kort-container">
@@ -24,4 +24,4 @@ const OmMigKort = () => {
   );
 };
 
-export default OmMigKort;
+export default InfoCards;

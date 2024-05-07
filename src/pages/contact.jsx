@@ -1,13 +1,13 @@
 import ContactForm from '../components/form';
-import Meny from '../components/meny';
+import Header from '../components/header';
 
-const Kontakt = () => {
+const Contact = () => {
   return (
     <div className="page-container">
-      <Meny></Meny>
+      <Header></Header>
       <ContactForm></ContactForm>
     </div>
   );
 };
 
-export default Kontakt;
+export default Contact;

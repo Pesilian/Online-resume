@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
+import '../styles/form.css';
 
 const onSubmit = formValues => {
   console.log('form data', formValues);
@@ -9,20 +10,22 @@ let ContactForm = props => {
   const { handleSubmit } = props;
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <div>
+    <form className="inputform" onSubmit={handleSubmit(onSubmit)}>
+      <div className="inputname">
         <label htmlFor="name">Namn:</label>
-        <Field name="name" component="input" type="text" />
+        <Field className="" name="name" component="input" type="text" />
       </div>
-      <div>
+      <div className="inputmail">
         <label htmlFor="email">Mail:</label>
         <Field name="email" component="input" type="email" />
       </div>
-      <div>
+      <div className="inputmessage">
         <label htmlFor="message">Meddelande:</label>
         <Field name="message" component="textarea" />
       </div>
-      <button type="submit">Skicka</button>
+      <button className="submitbutton" type="submit">
+        Skicka
+      </button>
     </form>
   );
 };

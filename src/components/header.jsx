@@ -1,7 +1,7 @@
-import '../styles/meny.css';
+import '../styles/header.css';
 import { useNavigate } from 'react-router-dom';
 
-const Meny = () => {
+const Header = () => {
   const navigera = useNavigate();
 
   const handleButtonClick1 = () => {
@@ -31,4 +31,4 @@ const Meny = () => {
     </div>
   );
 };
-export default Meny;
+export default Header;
