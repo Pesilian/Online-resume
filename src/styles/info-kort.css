@@ -1,0 +1,18 @@
+.kort-container {
+  margin: auto;
+  border: 2px solid;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+}
+
+.kort-bild {
+  padding: 10px;
+  width: 30%;
+  height: 30%;
+}
+
+.info-container {
+  font-size: 16px;
+}
