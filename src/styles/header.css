@@ -1,13 +1,17 @@
 .header-container {
   display: flex;
   flex-direction: column;
+  background-image: url(../assets/background.png);
 }
 
 .header {
-  font-family: 'raleway', sans-serif;
-  font-weight: 800;
+  background-color: #ffffffcd;
+  padding: 10px;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 600;
   font-size: 80px;
   margin: auto;
+  color: #0b0b0b;
 }
 
 .button-container {
@@ -17,9 +21,11 @@
 .meny-button {
   font-family: 'raleway', sans-serif;
   font-size: 20px;
+  font-weight: 700;
   border: none;
-  background-color: #fff;
-  width: 20%;
+  background-color: #ffffffcd;
+  padding: 5px;
+  width: 10%;
   height: 10%;
   margin: 10px auto 10px auto;
 }

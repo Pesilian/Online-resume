@@ -1,0 +1,15 @@
+.page-container {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+}
+
+.contactinfo {
+  line-height: 1.5;
+  width: 700px;
+  font-family: 'raleway', sans-serif;
+  font-size: 20px;
+  margin: 30px auto auto;
+}

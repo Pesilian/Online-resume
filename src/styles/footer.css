@@ -1,0 +1,7 @@
+.footer-container {
+  background-image: url(../assets/background.png);
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}

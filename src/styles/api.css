@@ -1,0 +1,27 @@
+.api-container {
+  width: 60%;
+  margin: 20px auto auto;
+}
+
+.list {
+  /* padding: 0; */
+  line-height: 1.5;
+}
+
+.listitem {
+  list-style: circle;
+  font-family: 'raleway', sans-serif;
+  font-size: 20px;
+}
+
+a:link {
+  color: #000;
+}
+
+a:hover {
+  font-weight: 800;
+}
+
+a:visited {
+  color: #000;
+}
