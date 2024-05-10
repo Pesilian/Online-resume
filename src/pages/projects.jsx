@@ -1,5 +1,5 @@
 import Header from '../components/header';
-import GitAPI from '../components/fetchAPI';
+import GitAPI from '../components/GitAPI';
 
 const Projects = () => {
   return (
