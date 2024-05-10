@@ -1,32 +1,14 @@
 import '../styles/header.css';
-import { useNavigate } from 'react-router-dom';
+import MenuButton from './menubutton';
 
 const Header = () => {
-  const navigera = useNavigate();
-
-  const handleButtonClick1 = () => {
-    navigera('/');
-  };
-  const handleButtonClick2 = () => {
-    navigera('/projekt');
-  };
-  const handleButtonClick3 = () => {
-    navigera('/kontakt');
-  };
-
   return (
     <div className="header-container">
       <h1 className="header">Lina Persson Signell</h1>
       <div className="button-container">
-        <button onClick={handleButtonClick1} className="meny-button">
-          Om Mig
-        </button>
-        <button onClick={handleButtonClick2} className="meny-button">
-          Projekt
-        </button>
-        <button onClick={handleButtonClick3} className="meny-button">
-          Kontakt
-        </button>
+        <MenuButton buttontext="Om mig" path="/" />
+        <MenuButton buttontext="Projekt" path="/projekt" />
+        <MenuButton buttontext="Kontakt" path="/kontakt" />
       </div>
     </div>
   );
