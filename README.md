@@ -10,7 +10,7 @@
 ## Under projekt hittar man en mina repos, hämtade med GitHub Rest API.
 ## Under kontakt hittar man ett kontaktformulär.
 
-### Det jag kommer lägga til härnäst på min sida är: 
+### Det jag kommer lägga till härnäst på min sida är: 
 #### -Jest, för testning.
 #### -En toggle för att toggla mellan två teman.
 #### -Ett galleri för att kunna bläddra i mitt cv, kommer byggas vidare på den funktion jag redan har.
