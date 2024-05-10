@@ -2,6 +2,8 @@
 
 ## Jag hade verkligen högre ambitioner för detta arbete, tanken var att använda reux för att skapa en toggle för att switcha mellan två teman på sidan men en covid/influensa och ögoninflammation satte stopp för det, men det är som sagt ett "work in progress" och jag har haft riktigt roligt när jag gjort det. 
 
+## Jag har även läst mig in på Jest för testning av sidan men kasserade även detta efter mycket om och men.
+
 ## Man kör sidan genom att skriva in NPM start i terminalen. 
 ## Man kommer då till första sidan där mn hittar en kort presentation. 
 ## Man kan sen via menyknapparna navigera sig vidare till kontakt och projekt. 
