@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background-image: url(../src/assets/background.png);
 }
 
 code {

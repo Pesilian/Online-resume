@@ -11,17 +11,27 @@ let ContactForm = props => {
 
   return (
     <form className="inputform" onSubmit={handleSubmit(onSubmit)}>
-      <div className="inputname">
+      <div className="name">
         <label htmlFor="name">Namn:</label>
-        <Field className="" name="name" component="input" type="text" />
+        <Field
+          className="nameinput"
+          name="name"
+          component="input"
+          type="text"
+        />
       </div>
-      <div className="inputmail">
+      <div className="mail">
         <label htmlFor="email">Mail:</label>
-        <Field name="email" component="input" type="email" />
+        <Field
+          className="emailinput"
+          name="email"
+          component="input"
+          type="email"
+        />
       </div>
-      <div className="inputmessage">
+      <div className="message">
         <label htmlFor="message">Meddelande:</label>
-        <Field name="message" component="textarea" />
+        <Field className="messageinput" name="message" component="textarea" />
       </div>
       <button className="submitbutton" type="submit">
         Skicka

@@ -1,11 +1,13 @@
 import ContactForm from '../components/form';
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 const Contact = () => {
   return (
     <div className="page-container">
-      <Header></Header>
-      <ContactForm></ContactForm>
+      <Header />
+      <ContactForm />
+      <Footer />
     </div>
   );
 };
