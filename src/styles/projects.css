@@ -2,10 +2,15 @@
   display: flex;
 }
 
-.contactinfo {
+.apiinfo {
   line-height: 1.5;
   width: 700px;
   font-family: 'raleway', sans-serif;
   font-size: 20px;
-  margin: 30px auto auto;
+  margin: 30px auto;
+}
+
+.formlink:link {
+  color: #000;
+  font-weight: 800;
 }

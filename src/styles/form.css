@@ -1,5 +1,5 @@
 .inputform {
-  margin: 60px auto auto auto;
+  margin: 30px auto auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,14 +17,14 @@ label {
   width: 300px;
   height: 30px;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .emailinput {
   width: 300px;
   height: 30px;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .messageinput {
