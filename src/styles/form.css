@@ -1,16 +1,37 @@
 .inputform {
-  margin: auto;
+  margin: 60px auto auto auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 60%;
   height: auto;
   font-family: 'raleway', sans-serif;
 }
 
-.inputname {
+label {
+  display: block;
+  text-transform: uppercase;
 }
 
-.inputmail {
+.nameinput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.emailinput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.messageinput {
+  width: 700px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .submitbutton {
