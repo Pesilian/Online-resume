@@ -1,1 +1,0 @@
-skriv process.env.TOKEN när du vill använda TOKEN

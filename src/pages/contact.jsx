@@ -7,14 +7,14 @@ const Contact = () => {
   return (
     <div className="page-container">
       <Header />
-      <p className="contactinfo">
-        Jag nås lättast på mail: linasignell@live.se <br /> Men det går även bra
-        att ringa mig på telefonnummer: +46707333097
-        <br />
-        Det går även bra att skriva till mig via kontaktformuläret nedan så hör
-        jag av mig så fort jag kan!
-      </p>
-      <ContactForm />
+      <div className="container">
+        <h2 className="heading">Kontakt</h2>
+        <p className="contactinfo">
+          Det går bra att skriva till mig via kontaktformuläret nedan så hör jag
+          av mig så fort jag kan!
+        </p>
+        <ContactForm />
+      </div>
       <Footer />
     </div>
   );

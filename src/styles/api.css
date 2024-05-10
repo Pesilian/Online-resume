@@ -3,25 +3,19 @@
   margin: 20px auto auto;
 }
 
-.heading {
-  font-family: 'raleway', sans-serif;
-  font-size: 30px;
-}
-
 .list {
-  padding: 0;
+  /* padding: 0; */
   line-height: 1.5;
 }
 
 .listitem {
-  list-style: none;
+  list-style: circle;
   font-family: 'raleway', sans-serif;
   font-size: 20px;
 }
 
 a:link {
   color: #000;
-  text-decoration: none;
 }
 
 a:hover {

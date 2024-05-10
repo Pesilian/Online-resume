@@ -2,6 +2,8 @@ import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import '../styles/form.css';
 
+//Valde att använda mig av redux för mitt formulär.
+
 const onSubmit = formValues => {
   console.log('form data', formValues);
 };
@@ -41,6 +43,6 @@ let ContactForm = props => {
 };
 
 ContactForm = reduxForm({
-  form: 'contact', // ett unikt namn för detta formulär
+  form: 'contact',
 })(ContactForm);
 export default ContactForm;

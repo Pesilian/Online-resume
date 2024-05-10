@@ -2,7 +2,6 @@
   margin: 30px auto auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 60%;
   height: auto;
   font-family: 'raleway', sans-serif;
@@ -17,7 +16,8 @@ label {
   width: 300px;
   height: 30px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin: 0px 100px 10px 0px;
+  padding: 0;
 }
 
 .emailinput {
@@ -25,6 +25,7 @@ label {
   height: 30px;
   border-radius: 5px;
   margin-bottom: 10px;
+  padding: 0;
 }
 
 .messageinput {

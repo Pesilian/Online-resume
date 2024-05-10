@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.container {
+  width: 1200px;
+}
+
 .contactinfo {
   line-height: 1.5;
   width: 700px;

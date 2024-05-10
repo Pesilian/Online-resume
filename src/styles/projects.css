@@ -2,6 +2,19 @@
   display: flex;
 }
 
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.heading {
+  margin: 30px auto 10px auto;
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+}
+
 .apiinfo {
   line-height: 1.5;
   width: 700px;

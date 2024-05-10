@@ -1,6 +1,8 @@
 import '../styles/header.css';
 import MenuButton from './menubutton';
 
+//Knapparna till min meny är gjord som en egen komponent under menubutton
+
 const Header = () => {
   return (
     <div className="header-container">
