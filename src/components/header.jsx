@@ -6,11 +6,11 @@ import MenuButton from './menubutton';
 const Header = () => {
   return (
     <div className="header-container">
-      <h1 className="header">Lina Persson Signell</h1>
+      <h1 className="header">Page Header</h1>
       <div className="button-container">
-        <MenuButton buttontext="Om mig" path="/" />
-        <MenuButton buttontext="Projekt" path="/projekt" />
-        <MenuButton buttontext="Kontakt" path="/kontakt" />
+        <MenuButton buttontext="About" path="/" />
+        <MenuButton buttontext="Projects" path="/projects" />
+        <MenuButton buttontext="Contacts" path="/contacts" />
       </div>
     </div>
   );

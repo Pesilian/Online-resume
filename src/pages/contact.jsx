@@ -8,10 +8,12 @@ const Contact = () => {
     <div className="page-container">
       <Header />
       <div className="container">
-        <h2 className="heading">Kontakt</h2>
+        <h2 className="heading">Contact</h2>
         <p className="contactinfo">
-          Det går bra att skriva till mig via kontaktformuläret nedan så hör jag
-          av mig så fort jag kan!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat neque
+          nihil sed, dolorem sequi vel expedita a necessitatibus, aperiam amet
+          consequuntur quidem rerum! Suscipit iure odit explicabo tempora, atque
+          quasi.{' '}
         </p>
         <ContactForm />
       </div>

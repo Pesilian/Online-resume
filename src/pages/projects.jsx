@@ -15,7 +15,7 @@ const Projects = () => {
     <div className="page-container">
       <Header />
       <div className="container">
-        <h2 className="heading">Mina Projekt</h2>
+        <h2 className="heading">Github</h2>
         <p className="apiinfo">
           Här kan du se mina repos på github.
           <br /> Har du någon feedback eller kommentar får du gärna skicka ett
